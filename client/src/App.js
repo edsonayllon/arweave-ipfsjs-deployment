@@ -11,7 +11,7 @@ function App() {
   }, [])
 
   const startIpfs = () => {
-    const node = new IPFS()
+    const node = new IPFS();
 
     node.on('ready', () => {
       // Ready to use!
@@ -24,7 +24,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
